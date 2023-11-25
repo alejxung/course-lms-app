@@ -19,15 +19,18 @@
     },
     "build": {
       "name": "build",
-      "command": "npm run build"
+      "command": "npm run build",
+      "runAtStart": false
     },
     "start": {
       "name": "start",
-      "command": "npm run start"
+      "command": "npm run start",
+      "runAtStart": false
     },
     "lint": {
       "name": "lint",
-      "command": "npm run lint"
-    },
+      "command": "npm run lint",
+      "runAtStart": false
+    }
   }
 }
